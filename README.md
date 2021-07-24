@@ -10,6 +10,17 @@ Criação de uma fonte, ligada em 127V AC (60Hz), que produza, na saída, uma te
 ### Link para o Circuito
 https://tinyurl.com/yhocpyjx
 
+### Componentes do Circuito
+**Transformador:** A tomada (entrada da fonte) fornece um RMS de 127V (pico em 180). Como nossa fonte deve fornecer uma tensão máxima de 12V. O transfomador reduzirá a voltagem original para ~18V.
+
+**Ponte de diodos (retificação):** A ponte de diodos faz com que a voltagem seja sempre positiva. Assim, ela irá variar de 18V (pico) a 0V, ao invés de variar de 18V a -18V. *Observação: é preciso levar em conta que a cada diodo, do modelo usado, tem um drop voltage de ~0.6V. Com isso, após passar pela ponte a voltagem fica com um pico de ~16V.*
+
+**Capacitor (filtragem):** O capacitor tem a função de diminuir a variação na voltagem. O que antes variava de 16V a 0V, agora será mantido sempre acima de ~13V. <!-- Como? --> 
+
+**Diodo Zenner (regulador):** O diodo zenner consegue manter uma uma tensão X sobre ele, contanto que a tensão sobre ele seja >= X. Nesse caso, escolhemos um diodo de 13V, o que implica que, como nossa voltagem é sempre >= ~13V, graças ao capacitor, o Zenner manterá sempre os 13V sobre ele.
+
+**Transistor:** O transistor vem para solucionar um grande impasse: se tivermos um resistor muito pequeno antes do diodo zenner, podemos queimá-lo. Se aumentarmos esse resistor, ficamos com uma tensão baixa demais. Portanto, adicionamos o transistor, que fornece um caminho alternativo para a corrente, enquanto a voltagem ainda é fornecida pelo Zenner. *Observação: o transistor tem um drop voltage de ~<!-- ???? -->.*
+
 # Tabela de Componentes
 | QUANTIDADE | COMPONENTES                      | ESPECIFICAÇÕES                                                                                         | VALOR   |
 |------------|----------------------------------|--------------------------------------------------------------------------------------------------------|---------|
