@@ -27,5 +27,8 @@ https://tinyurl.com/yhocpyjx
 # Esquemático e PCB no Eagle
 <!-- Adicionar Imagem -->
 
+# Cálculos dos Valores
+<!-- Adicionar Cálculos-->
+
 # Vídeo explicativo
 <!-- Adiciona Vídeo -->
