@@ -15,7 +15,7 @@ https://tinyurl.com/yhocpyjx
 
 <img src="images/ratio_transf.png">
 
-**Ponte de Diodos (retificação):** A ponte de diodos faz com que a voltagem seja sempre positiva. Assim, ela irá variar de 18V (pico) a 0V, ao invés de variar de 18V a -18V. *É preciso levar em conta que a cada diodo, do modelo usado, tem um drop voltage de ~0.6V. Com isso, após passar pela ponte a voltagem fica com um pico de ~16,8V.*
+**Ponte de Diodos (retificação):** A ponte de diodos faz com que a voltagem seja sempre positiva. Assim, ela irá variar de 18V (pico) a 0V, ao invés de variar entre 18V e valores negativos. *É preciso levar em conta que a cada diodo, do modelo usado, tem um drop voltage de ~0.6V. Com isso, após passar pela ponte a voltagem fica com um pico de ~16,8V.*
 
 **Capacitor (filtragem):** O capacitor diminui a variação na voltagem. O que antes variava de ~16,8V a 0V, agora será mantido sempre acima de ~13V, porém ainda com um *ripple*.
 
