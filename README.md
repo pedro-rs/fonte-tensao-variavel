@@ -43,11 +43,8 @@ https://tinyurl.com/yhocpyjx
 
 *Observação: Uma alternativa para os 4 diodos é usar uma ponte retificadora pronta. Porém, ela custa [R$3,67](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html?gclid=Cj0KCQjw9O6HBhCrARIsADx5qCQYwFLU2LKIdpeqMmVVPR_0hlOLdElUAwMhi0hp5ZJfor1AFRECoXEaAkDmEALw_wcB) (mais cara que comprar 4 diodos).*
 
-# Esquemático e PCB no Eagle
-<!-- Adicionar Imagem -->
-
-# Cálculos dos Valores
-<!-- Adicionar Cálculos-->
+# Esquemático do PCB no Eagle
+<img src="images/pcb_eagle.png">
 
 # Vídeo explicativo
 <!-- Adiciona Vídeo -->
