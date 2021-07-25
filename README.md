@@ -45,7 +45,10 @@ O valor do ganho emissor-base foi retirado do [datasheet](https://storage.google
 
 *Observação: Uma alternativa para os 4 diodos é usar uma ponte retificadora pronta. Porém, ela custa [R$3,67](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html?gclid=Cj0KCQjw9O6HBhCrARIsADx5qCQYwFLU2LKIdpeqMmVVPR_0hlOLdElUAwMhi0hp5ZJfor1AFRECoXEaAkDmEALw_wcB) (mais cara que comprar 4 diodos).*
 
-# Esquemático do PCB no Eagle
+# Esquemático no Eagle
+<img src="images/schematic.jpg">
+
+# PCB no Eagle
 <img src="images/pcb_eagle.jpg">
 
 # Vídeo explicativo
