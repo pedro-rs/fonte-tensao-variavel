@@ -24,7 +24,9 @@ https://tinyurl.com/yhocpyjx
 **Diodo Zenner (regulador):** O diodo zenner consegue manter uma uma tensão X sobre ele, contanto que a tensão sobre ele seja >= X. Nesse caso, escolhemos um diodo de 13V, o que implica que, como nossa voltagem é sempre >= ~13V, graças ao capacitor, o Zenner manterá sempre os 13V sobre ele.
 
 **Potenciômetro:** O potenciômero fará a regulação da voltagem na saída. Sua resistência está relacionada à voltagem mínima (3V) que buscamos na saída.
-<!-- Cálculo potenciômetro -->
+O valor do ganho emissor-base foi retirado do [datasheet](https://storage.googleapis.com/baudaeletronicadatasheet/BC548.pdf).
+
+<img src="images/potenciometer_calc.png">
 
 **Transistor:** O transistor vem para solucionar um grande impasse: se tivermos um resistor muito pequeno antes do Diodo Zenner, podemos queimá-lo. Se aumentarmos esse resistor, ficamos com uma tensão baixa demais. Portanto, adicionamos o transistor, que fornece um caminho alternativo para a corrente, enquanto a voltagem ainda é fornecida pelo Zenner. *Observação: o transistor tem um drop voltage de ~0,7V.*
 
@@ -44,7 +46,7 @@ https://tinyurl.com/yhocpyjx
 *Observação: Uma alternativa para os 4 diodos é usar uma ponte retificadora pronta. Porém, ela custa [R$3,67](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html?gclid=Cj0KCQjw9O6HBhCrARIsADx5qCQYwFLU2LKIdpeqMmVVPR_0hlOLdElUAwMhi0hp5ZJfor1AFRECoXEaAkDmEALw_wcB) (mais cara que comprar 4 diodos).*
 
 # Esquemático do PCB no Eagle
-<img src="images/pcb_eagle.png">
+<img src="images/pcb_eagle.jpg">
 
 # Vídeo explicativo
 <!-- Adiciona Vídeo -->
