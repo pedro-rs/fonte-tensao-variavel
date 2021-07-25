@@ -12,12 +12,14 @@ https://tinyurl.com/yhocpyjx
 
 ### Componentes do Circuito
 **Transformador:** A tomada (entrada da fonte) fornece um RMS de 127V (pico em 180V). Como nossa fonte deve fornecer uma tensão máxima de 12V, o transfomador reduzirá essa voltagem original para ~12,7 (pico em 18V).
+
 <img src="images/ratio_transf.png">
 
 **Ponte de Diodos (retificação):** A ponte de diodos faz com que a voltagem seja sempre positiva. Assim, ela irá variar de 18V (pico) a 0V, ao invés de variar de 18V a -18V. *É preciso levar em conta que a cada diodo, do modelo usado, tem um drop voltage de ~0.6V. Com isso, após passar pela ponte a voltagem fica com um pico de ~16,8V.*
 
 **Capacitor (filtragem):** O capacitor diminui a variação na voltagem. O que antes variava de ~16,8V a 0V, agora será mantido sempre acima de ~13V, porém ainda com um *ripple*.
-<!-- Cálculo capacitor-->
+
+<img src="images/capacitor_calc.png">
 
 **Diodo Zenner (regulador):** O diodo zenner consegue manter uma uma tensão X sobre ele, contanto que a tensão sobre ele seja >= X. Nesse caso, escolhemos um diodo de 13V, o que implica que, como nossa voltagem é sempre >= ~13V, graças ao capacitor, o Zenner manterá sempre os 13V sobre ele.
 
