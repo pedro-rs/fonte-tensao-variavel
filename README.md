@@ -42,6 +42,8 @@ O valor do ganho emissor-base foi retirado do [datasheet](https://storage.google
 | 1          | Diodo Zener                      | Diodo Zener 1N4743 [13V / 1W]                                                                          | [R$0,19](https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html?gclid=Cj0KCQjw9O6HBhCrARIsADx5qCRGEg7XYb5aGn0Z1I7SknzJJUa22MIMlAllDVkbJLwXGaiSqqB_TRgaAr4zEALw_wcB)  |
 | 1          | Potenciômetro                    | Resistência: 5K (5000Ω) Potência: 0,2W Tipo: Linear Rotativo Tensão Máxima: 200V AC                    | [R$1,99](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html?gclid=Cj0KCQjw9O6HBhCrARIsADx5qCTMHQAI6sTi7lzOAkH93KXrArQTBYsat9axisSIV9KvZKRZh8o5E2gaAq9zEALw_wcB)  |
 | 1          | Transistor NPN                   | Transistor NPN - BC548 Tensão Coletor Emissor = 30V Tensão Coletor Base = 30V Tensão Emissor Base = 5V | [R$0,17](https://www.baudaeletronica.com.br/transistor-npn-bc548.html?gclid=Cj0KCQjw9O6HBhCrARIsADx5qCTKld_1td4uUaTiKCKmKWoJH7SuCkTWpAj7Gklsygzx7BwEpjZNft0aAkPSEALw_wcB) |
+|  |                       |                                                                                          |    |
+|  |           TOTAL            |                                                                     | R$63,70  |
 
 *Observação: Uma alternativa para os 4 diodos é usar uma ponte retificadora pronta. Porém, ela custa [R$3,67](https://www.baudaeletronica.com.br/ponte-retificadora-kbpc1010.html?gclid=Cj0KCQjw9O6HBhCrARIsADx5qCQYwFLU2LKIdpeqMmVVPR_0hlOLdElUAwMhi0hp5ZJfor1AFRECoXEaAkDmEALw_wcB) (mais cara que comprar 4 diodos).*
 
