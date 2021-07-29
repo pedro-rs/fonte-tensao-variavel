@@ -54,4 +54,4 @@ O valor do ganho emissor-base foi retirado do [datasheet](https://storage.google
 <img src="images/pcb_eagle.jpg">
 
 # Vídeo explicativo
-<!-- Adiciona Vídeo -->
+[Clique aqui](https://www.youtube.com/watch?v=BzMY7E3gwxM)
